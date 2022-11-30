@@ -1,0 +1,11 @@
+#Carregando banco de dados XLSX no R
+
+#Baixar aruqivo xlsx disponeivel nesta branch 
+#Subir arquivo XLSX disponeivel nesta branch no R
+#Instalar pacote de leitura de arquivos Excel
+install.packages("readxl")
+#Ler pacote
+library("readxl")
+# xlsx files
+Arrest <- read_excel("Arrest.xlsx")
+View(Arrest)
